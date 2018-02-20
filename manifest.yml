@@ -1,0 +1,9 @@
+---
+applications:
+- name: cf-python-maintenancepage
+  memory: 256M
+  instances: 1
+  no-route: true
+  #random-route: true
+  env:
+    MAINTENANCE_MESSAGE: System currently down for maintenance
